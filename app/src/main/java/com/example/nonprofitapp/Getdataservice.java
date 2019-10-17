@@ -12,6 +12,6 @@ public interface Getdataservice {
     Call<List<Pokemon>> getPokemons();
 */
 
-    @GET("E14trR2lD")
+    @GET("search.json?order=revenue&sort_order=desc")
     Call<Example> getExampleObj();
 }
